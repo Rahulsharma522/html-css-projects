@@ -1,0 +1,74 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+body {
+  width: 50%;
+  padding-left: 300px;
+  background: #293f50;
+  color:white;
+}
+
+.container {
+  padding-left: 30px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+  background-color: wheat;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+.nav {
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.alter {
+   background-color:steelblue;
+   padding: 20px;
+}
+/* .footer-heading{
+  padding: 10px;
+  background-color:steelblue;
+  padding-left: 50px;
+  margin: 0 auto;
+  bottom: 0px;
+} */
+.parent-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  border: 5px solid white;
+}
+.div {
+  height: 40px;
+  width: 40px;
+  background-color: turquoise;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
